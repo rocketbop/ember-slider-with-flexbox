@@ -1,3 +1,20 @@
-<h2 id="title">Welcome to Ember</h2>
+<div class="flex-container">
+  <div id="title-bar">
+    <p>Basket</p>
+  </div>
 
-{{outlet}}
+  {{#slick-carousel
+    class="ember-carousel"
+    infinite=false
+  }}
+    <div class="product" id="product1"></div>
+    <div class="product" id="product2"></div>
+    <div class="product" id="product3"></div>
+  {{/slick-carousel}}
+  <div id="basket">
+    <p>This is the basket.</p>
+  </div>
+  <div id="footer">
+    <p>This is the footer.</p>
+  </div>
+</div>

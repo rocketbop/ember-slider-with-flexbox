@@ -1,0 +1,50 @@
+/*Base Layout*/
+
+html, body {
+  height: 100%;  
+  margin-top: 0;
+  margin-bottom: 0;  
+}
+
+body > .ember-view {
+  height: 100%;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+p {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*Product Slider*/
+
+.ember-carousel {
+  flex: 1;
+}
+
+.product {
+  height: 250px;
+  width: 100%;
+  background-position: cover;
+}
+#product1 {
+  background-image: url(/assets/bridge.jpg);
+}
+
+#product2 {
+  background-image: url(/assets/bikes.jpg);
+}
+
+#product3 {
+  background-image: url(/assets/exit.jpg);
+}
+
+#basket {
+  display: flex;
+  align-items: center;
+  flex: 2;
+}
